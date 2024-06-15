@@ -1,0 +1,62 @@
+.div {
+  display: flex;
+  position: relative;
+}
+.label {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #8a8a89;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 111%;
+  color: #121417;
+  padding: 14px 24px;
+  padding-right: 0;
+
+  background-color: #f7f7fb;
+}
+
+.left {
+  border-right: 1px solid rgba(138, 138, 137, 0.2);
+  border-radius: 14px 0 0 14px;
+  padding-left: 72px;
+  text-overflow: ellipsis;
+  max-width: 87px;
+}
+.right {
+  padding-left: 48px;
+  border-radius: 0 14px 14px 0;
+  max-width: 116px;
+}
+
+.from {
+  position: absolute;
+  top: 15px;
+  left: 24px;
+}
+
+.to {
+  position: absolute;
+  top: 15px;
+  left: calc((100% / 2) + 24px);
+}
+.placeholder {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 111%;
+  color: #121417;
+  opacity: unset;
+}

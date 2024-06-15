@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Manrope Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope'), url('./fonts/Manrope-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Manrope Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope'), url('./fonts/Manrope-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Manrope SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Manrope'), url('./fonts/Manrope-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Inter Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inter'), url('./fonts/Inter-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inter'), url('./fonts/Montserrat-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inter'), url('./fonts/Manrope-SemiBold.ttf') format('ttf');
+}

@@ -1,0 +1,20 @@
+.button {
+  display: block;
+  margin: 100px auto;
+  align-self: center;
+  background-color: transparent;
+  padding: 10px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #3470ff;
+  transition: all 200ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: #0b44cd;
+  }
+}

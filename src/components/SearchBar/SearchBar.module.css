@@ -1,0 +1,7 @@
+.form {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 18px;
+  max-width: 859px;
+}

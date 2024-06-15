@@ -1,0 +1,29 @@
+.heading {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.link {
+  margin-bottom: 0px;
+  padding: 15px 40px;
+  background-color: #3470ff;
+  color: whitesmoke;
+  border: solid 1px gray;
+  border-radius: 15px;
+  font-size: 30px;
+  transition: all 200ms ease-in-out;
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+    background-color: #0b44cd;
+  }
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
