@@ -87,7 +87,7 @@ export const ModalCar = ({ closeModal }) => {
           Price: <span className={s.accent}>{car.rentalPrice.slice(1)}$</span>
         </li>
       </ul>
-      <a className={s.link} href="tel:+380111111705">
+      <a className={s.link} href="tel:+380730000000">
         Rental car
       </a>
     </div>
